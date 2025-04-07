@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome | styled web page</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Zawadi</h1>
+      <p>Web Developer & Designer</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>Hi! I'm Zawadi, a passionate developer focused on building clean, creative, and user-friendly websites and applications. I specialize in HTML, CSS, and JavaScript with a love for responsive design and accessibility.</p>
+    </section>
+
+    <section id="portfolio" class="container">
+      <h2>Portfolio</h2>
+      <div class="grid">
+        <div class="card">Project 1</div>
+        <div class="card">Project 2</div>
+        <div class="card">Project 3</div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required/>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required/>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Zawadi. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
